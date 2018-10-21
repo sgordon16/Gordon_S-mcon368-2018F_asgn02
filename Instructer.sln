@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instructer", "ConsoleApp1\Instructer.csproj", "{EA52832D-9598-4973-8844-4FC707766D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA52832D-9598-4973-8844-4FC707766D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA52832D-9598-4973-8844-4FC707766D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA52832D-9598-4973-8844-4FC707766D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA52832D-9598-4973-8844-4FC707766D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23EE7B75-709B-4262-BD66-4A7FAFCF44BA}
+	EndGlobalSection
+EndGlobal
