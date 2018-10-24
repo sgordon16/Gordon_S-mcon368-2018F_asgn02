@@ -26,10 +26,7 @@ namespace Instructer
         {
             get
             {
-                if (HasPhd)
-                    return "DR. " + name;
-                else
-                    return "PROF " + name;
+                return HasPhd ? "DR. " + name : "PROF " + name;
             }
             set
             {
@@ -61,10 +58,7 @@ namespace Instructer
         {
             get
             {
-                if (_courses.Count >= 4)
-                    return true;
-                else
-                    return false;
+                return _courses.Count + CommitteeMemberships >= 4;
             }
         }
 
@@ -79,10 +73,7 @@ namespace Instructer
         {
             get
             {
-                if (HasPhd)
-                    return BaseSalary + 1000;
-                else
-                    return BaseSalary;
+                return HasPhd ? BaseSalary + 1000 : BaseSalary;
             }
         }
 
